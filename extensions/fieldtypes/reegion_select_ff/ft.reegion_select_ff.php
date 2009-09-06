@@ -9,7 +9,7 @@ class Reegion_select_ff extends Fieldframe_Fieldtype {
         'version'          => '1.0.1',
         'desc'             => 'Provides dropdown lists of countries, U.S. states, Canadian provinces, and UK counties.',
         'docs_url'         => 'http://github.com/amphibian/reegion_select.ff_fieldtype/',
-        'versions_xml_url' => 'http://amphibian.info/ee-addons/ft.reegion_select.xml',
+        'versions_xml_url' => 'http://amphibian.info/ee-addons/versions.xml',
         'no_lang'  			=> TRUE
     );
 
