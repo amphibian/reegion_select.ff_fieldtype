@@ -111,7 +111,7 @@ class Reegion_select_ff extends Fieldframe_Fieldtype {
 			
 		foreach ($list as $code => $label) {
 			$value = ( $field_settings['value'] == 'code' && !is_numeric($code) ) ? $code : $label;
-			$selected = ($field_data == $display) ? 1 : 0;
+			$selected = ($field_data == $value) ? 1 : 0;
 			$r .= $DSP->input_select_option($value, $label, $selected);
 		}
 		$r .= $DSP->input_select_footer();
