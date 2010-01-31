@@ -12,4 +12,12 @@ The REEgion Select fieldtype will display dropdown <select> lists of:
 
 For each instance of the REEgion Select fieldtype you can choose which one of the aforementioned regions you'd like to display, as well as whether to use the ISO 3166-2 abbreviation as the output value for countries, states, and provinces, or to instead display the region's name.
 
+Additionally, by adding the "swap" parameter to your field's display tag, you can display the alternate value (code or region name) for the field, i.e.
+
+`{my_reegion_select_field}` = California
+
+`{my_reegion_select_field:swap}` = CA
+
+(Thanks to Tim Kelty for this last addition.)
+
 REEgion Select is FF Matrix-compatible.
